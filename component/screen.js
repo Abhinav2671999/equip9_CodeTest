@@ -102,6 +102,7 @@ function Screen() {
       console.log(response, "222");
       if (!response.ok) {
         console.log('Upload successful!');
+        alert("Image upload to S3 is successful!");
       } else {
         console.error('Failed to upload image:', response);
       }
